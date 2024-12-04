@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #9fb2ce;
+  }
+  
+  header {
+    background: #195070;
+    color: rgb(158, 186, 197);
+    text-align: center;
+    padding: 1em 0;
+  }
+  
+  main {
+    margin: 20px;
+  }
+  
+  section {
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+  }
+  
+  table th, table td {
+    border: 1px solid #195070;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  table th {
+    background-color: #3d7392;
+  }
+  
+  button {
+    background-color: #195070;
+    color: rgb(158, 186, 197);
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #1a3050;
+  }
+  
